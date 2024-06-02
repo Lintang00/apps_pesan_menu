@@ -1,0 +1,46 @@
+name: apps_kasir
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+    sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+    intl: ^0.18.1
+    dropdown_search: ^4.0.0
+    dio: ^5.3.3
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^2.0.0
+
+flutter:
+    uses-material-design: true
+    assets:
+        - lib/assets/images/
+
+    fonts:
+        - family: Poppins
+          fonts:
+              - asset: lib/assets/fonts/Poppins-Black.ttf
+              - asset: lib/assets/fonts/Poppins-BlackItalic.ttf
+              - asset: lib/assets/fonts/Poppins-Bold.ttf
+              - asset: lib/assets/fonts/Poppins-BoldItalic.ttf
+              - asset: lib/assets/fonts/Poppins-ExtraBold.ttf
+              - asset: lib/assets/fonts/Poppins-ExtraBoldItalic.ttf
+#              - asset: lib/assets/fonts/Poppins-ExtraLight.ttf
+              - asset: lib/assets/fonts/Poppins-ExtraLightItalic.ttf
+              - asset: lib/assets/fonts/Poppins-Italic.ttf
+              - asset: lib/assets/fonts/Poppins-Light.ttf
+              - asset: lib/assets/fonts/Poppins-LightItalic.ttf
+              - asset: lib/assets/fonts/Poppins-Medium.ttf
+              - asset: lib/assets/fonts/Poppins-MediumItalic.ttf
+              - asset: lib/assets/fonts/Poppins-Regular.ttf
+              - asset: lib/assets/fonts/Poppins-SemiBold.ttf
+              - asset: lib/assets/fonts/Poppins-SemiBoldItalic.ttf
+              - asset: lib/assets/fonts/Poppins-Thin.ttf
+              - asset: lib/assets/fonts/Poppins-ThinItalic.ttf
