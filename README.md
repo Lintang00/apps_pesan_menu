@@ -1,3 +1,2 @@
 # apps_kasir
-
-A new Flutter project.
+in the manufacturing process
